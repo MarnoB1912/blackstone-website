@@ -587,7 +587,8 @@
         }
 
         .service-icon {
-            font-size: 3.5rem;
+            width: 48px;
+            height: 48px;
             margin-bottom: 1.5rem;
             display: block;
             position: relative;
@@ -595,8 +596,16 @@
             transition: transform 0.5s ease;
         }
 
+        .service-icon svg {
+            width: 100%;
+            height: 100%;
+            stroke: var(--accent);
+            stroke-width: 1.5;
+            fill: none;
+        }
+
         .service-card:hover .service-icon {
-            transform: scale(1.1) rotate(5deg);
+            transform: scale(1.1);
         }
 
         .service-card h3 {
@@ -1109,7 +1118,7 @@
         </div>
         <div class="services-grid">
             <div class="service-card reveal">
-                <span class="service-icon">📱</span>
+                <span class="service-icon"><svg viewBox="0 0 24 24"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect><line x1="12" y1="18" x2="12" y2="18"></line></svg></span>
                 <h3>Mobile App Development</h3>
                 <p>Native iOS, Android, and cross-platform applications built with cutting-edge technology and meticulous attention to detail.</p>
                 <ul class="service-features">
@@ -1119,7 +1128,7 @@
                 </ul>
             </div>
             <div class="service-card reveal">
-                <span class="service-icon">💻</span>
+                <span class="service-icon"><svg viewBox="0 0 24 24"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg></span>
                 <h3>Web Development</h3>
                 <p>High-performance websites and web applications that combine stunning design with flawless functionality.</p>
                 <ul class="service-features">
@@ -1129,7 +1138,7 @@
                 </ul>
             </div>
             <div class="service-card reveal">
-                <span class="service-icon">🎨</span>
+                <span class="service-icon"><svg viewBox="0 0 24 24"><path d="M12 19l7-7 3 3-7 7-3-3z"></path><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"></path><path d="M2 2l7.586 7.586"></path><circle cx="11" cy="11" r="2"></circle></svg></span>
                 <h3>UI/UX Design</h3>
                 <p>User-centric design that creates memorable experiences and drives meaningful engagement with your audience.</p>
                 <ul class="service-features">
@@ -1139,7 +1148,7 @@
                 </ul>
             </div>
             <div class="service-card reveal">
-                <span class="service-icon">⚙️</span>
+                <span class="service-icon"><svg viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg></span>
                 <h3>Backend & Infrastructure</h3>
                 <p>Robust, scalable backend architecture that powers your applications with reliability and security.</p>
                 <ul class="service-features">
@@ -1149,7 +1158,7 @@
                 </ul>
             </div>
             <div class="service-card reveal">
-                <span class="service-icon">🚀</span>
+                <span class="service-icon"><svg viewBox="0 0 24 24"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg></span>
                 <h3>Digital Strategy</h3>
                 <p>Strategic consulting to align technology with your business goals and create sustainable competitive advantages.</p>
                 <ul class="service-features">
@@ -1159,7 +1168,7 @@
                 </ul>
             </div>
             <div class="service-card reveal">
-                <span class="service-icon">🛡️</span>
+                <span class="service-icon"><svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg></span>
                 <h3>Ongoing Support</h3>
                 <p>Comprehensive maintenance and support to ensure your digital products remain at peak performance.</p>
                 <ul class="service-features">
