@@ -8,7 +8,23 @@
       "Bash(git commit -m \"$\\(cat <<''EOF''\nRename logo file to remove spaces\n\nFixes image loading issues on deployment\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
       "Bash(git commit:*)",
       "Bash(ren:*)",
-      "Bash(powershell -Command:*)"
+      "Bash(powershell -Command:*)",
+      "Bash(npm run *)",
+      "Bash(python -c \"from PIL import Image; im=Image.open\\('logo.png'\\); print\\('size',im.size,'mode',im.mode\\); bbox=im.getbbox\\(\\); print\\('content bbox',bbox\\)\")",
+      "Bash(node -e \"const s=require\\('fs'\\).statSync\\('logo.png'\\); console.log\\('bytes',s.size\\)\")",
+      "Bash(ls \"/c/Program Files/Google/Chrome/Application/chrome.exe\")",
+      "Bash(ls \"/c/Program Files \\(x86\\)/Microsoft/Edge/Application/msedge.exe\")",
+      "Bash(\"/c/Program Files/Google/Chrome/Application/chrome.exe\" --headless=new --disable-gpu --hide-scrollbars --window-size=1366,900 --screenshot=\"shot.png\" --virtual-time-budget=3500 \"file:///C:/Users/Harde%20Baard%20Botha/Desktop/Blackstone/Blackstone%20Website/index.html\")",
+      "Bash(python -c ' *)",
+      "Bash(sed 's#<div class=\"preloader\">#<div class=\"preloader\" style=\"display:none\">#' index.html)",
+      "Bash(\"/c/Program Files/Google/Chrome/Application/chrome.exe\" --headless=new --disable-gpu --hide-scrollbars --window-size=1440,900 --screenshot=\"C:/Users/Harde Baard Botha/AppData/Local/Temp/bs_clean.png\" --virtual-time-budget=3000 \"file:///C:/Users/Harde%20Baard%20Botha/Desktop/Blackstone/Blackstone%20Website/_navtest.html\")",
+      "Bash(python -c \"from PIL import Image; im=Image.open\\(r'C:/Users/Harde Baard Botha/AppData/Local/Temp/bs_clean.png'\\); im.crop\\(\\(0,0,720,170\\)\\).save\\(r'C:/Users/Harde Baard Botha/AppData/Local/Temp/bs_clean_top.png'\\)\")",
+      "Bash(cp blackstone-tech/index.html index.html)",
+      "Bash(\"/c/Program Files/Google/Chrome/Application/chrome.exe\" --headless=new --disable-gpu --hide-scrollbars --window-size=1440,900 --screenshot=\"C:/Users/Harde Baard Botha/AppData/Local/Temp/bs_fix.png\" --virtual-time-budget=3000 \"file:///C:/Users/Harde%20Baard%20Botha/Desktop/Blackstone/Blackstone%20Website/_navtest.html\")",
+      "Bash(python -c \"from PIL import Image; im=Image.open\\(r'C:/Users/Harde Baard Botha/AppData/Local/Temp/bs_fix.png'\\); im.crop\\(\\(0,0,900,200\\)\\).save\\(r'C:/Users/Harde Baard Botha/AppData/Local/Temp/bs_fix_top.png'\\)\")",
+      "Bash(\"/c/Program Files/Google/Chrome/Application/chrome.exe\" --headless=new --disable-gpu --hide-scrollbars --window-size=1440,900 --screenshot=\"C:/Users/Harde Baard Botha/AppData/Local/Temp/bs_fix2.png\" --virtual-time-budget=3000 \"file:///C:/Users/Harde%20Baard%20Botha/Desktop/Blackstone/Blackstone%20Website/_navtest.html\")",
+      "Bash(\"/c/Program Files/Google/Chrome/Application/chrome.exe\" --headless=new --disable-gpu --hide-scrollbars --window-size=390,844 --screenshot=\"C:/Users/Harde Baard Botha/AppData/Local/Temp/bs_mob.png\" --virtual-time-budget=3000 \"file:///C:/Users/Harde%20Baard%20Botha/Desktop/Blackstone/Blackstone%20Website/_navtest.html\")",
+      "Bash(python -c \"from PIL import Image; im=Image.open\\(r'C:/Users/Harde Baard Botha/AppData/Local/Temp/bs_mob.png'\\); im.crop\\(\\(0,0,390,120\\)\\).save\\(r'C:/Users/Harde Baard Botha/AppData/Local/Temp/bs_mob_top.png'\\)\")"
     ]
   }
 }
